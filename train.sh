@@ -1,1 +1,1 @@
-python -m torch.distributed.launch --nproc_per_node 1 --master_port 9527 train.py --workers 8 --device 0 --sync-bn --batch-size 128 --data data/coco.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7 --hyp data/hyp.scratch.p5.yaml
+python -m torch.distributed.launch --nproc_per_node 1 --master_port 9527 train.py --workers 8 --device 0 --sync-bn --batch-size 128 --data data/Road.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7 --hyp data/hyp.scratch.p5.yaml
