@@ -9,3 +9,6 @@ download RoadData0720.zip
 unset http_proxy && unset https_proxy
 RuntimeError: Distributed package doesn't have NCCL built in
 rm cache
+
+git config --global user.email "jjplane@foxmail.com"
+git config --global user.name "jjplane"
