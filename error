@@ -1,1 +1,11 @@
+export http_proxy=http://10.0.0.7:12798 && export https_proxy=http://10.0.0.7:12798
+wget https://github.com/tickstep/aliyunpan/releases/download/v0.2.6/aliyunpan-v0.2.6-linux-amd64.zip
+unzip aliyunpan-v0.2.6-linux-amd64.zip
+cd aliyunpan-v0.2.6-linux-amd64
+./aliyunpan
+login
+153aab141d8b490c9d8c2b09678833c3
+download RoadData0720.zip
+unset http_proxy && unset https_proxy
 RuntimeError: Distributed package doesn't have NCCL built in
+rm cache
